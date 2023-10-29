@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: contain;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 10px;
+}
+
+.main-container img {
+    width: 450px;
+    border-radius: 10px 10px 0 0;
+}
+
+.big-container {
+    padding: 40px 40px;
+    background: white;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+}
+
+.order-sum h3 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.order-sum p {
+    color: hsl(223, 47%, 23%);
+    font-size: 15px;
+    opacity: 0.8;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+
+
+.showarea {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    /* border: 1px solid black; */
+    padding: 20px 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.icon-text{
+    display: flex;
+}
+.icon-text>img {
+    margin-right: 13px;
+    width: 40px;
+    height: 40px;
+}
+
+.text-area {
+    margin-right: 10px;
+}
+
+.text-area>p {
+    color: hsl(223, 47%, 23%);
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.text-area>h4 {
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.showarea button {
+    text-decoration: underline;
+    border: none;
+    background: none;
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+}
+
+.big-btn {
+    background: hsl(245, 75%, 52%);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.last-para {
+    font-size: 12px;
+    font-weight: 1000;
+    color: hsl(223, 47%, 23%);
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 375px) {
+    .main-container img{ width: 200px;}
+  }
